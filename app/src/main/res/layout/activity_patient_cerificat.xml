@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".patient_certificate">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/abyssinica_sil"
+        android:text="Click on the below button to download the certificate :"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText">
+
+    </TextView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carbook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        app:cardCornerRadius="7dp"
+        app:cardUseCompatPadding="true"
+        tools:ignore="VisualLintBounds">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="11dp"
+            tools:ignore="UseCompoundDrawables,VisualLintBounds">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:contentDescription="Contact image"
+                android:src="@mipmap/booking"
+                tools:ignore="HardcodedText,ImageContrastCheck,VisualLintBounds" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="60dp"
+                android:text="Certificate"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded,VisualLintBounds" />
+
+            <ImageView
+                android:id="@+id/btndownload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/download"
+                tools:ignore="ContentDescription">
+
+            </ImageView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#C82525"
+        android:text="Back to home page "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,VisualLintButtonSize"></Button>
+</LinearLayout>

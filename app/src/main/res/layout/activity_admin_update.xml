@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_update"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="10sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Update about the vacination are as follow:"
+        android:textSize="27sp"
+        tools:ignore="HardcodedText">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The following vaccine have to give patient: "
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Biological E Limited. Corbevax. "
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Zydus Cadila. ZyCoV-D "
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Gennova Biopharmaceuticals Limited. GEMCOVAC-19."
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.Moderna. Spikevax."
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.Serum Institute of India. COVOVAX (Novavax formulation)"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="STAY SAFE  AND HEALTHY"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,TextSizeCheck">
+
+    </TextView>
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="Back to home page "
+        android:backgroundTint="#C82525"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText,VisualLintButtonSize">
+    </Button>
+</LinearLayout>

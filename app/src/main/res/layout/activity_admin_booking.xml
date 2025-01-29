@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+    tools:context=".admin_booking">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="UPDATE DATA HERE :"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Enter the date of vaccination :"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edtdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="dd/mm/yy"
+        android:inputType="date"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,SpeakableTextPresentCheck,TextContrastCheck,VisualLintTextFieldSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Enter the area of vaccination :"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edtcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City name "
+        android:inputType="text"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Enter the starting timing of vaccination :"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edtstarttime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="strarting time"
+        android:inputType="time"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,DuplicateSpeakableTextCheck,HardcodedText,SpeakableTextPresentCheck,VisualLintTextFieldSize,TextContrastCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Enter the ending of vaccination :"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edtendtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ending time"
+        android:inputType="time"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,SpeakableTextPresentCheck,VisualLintTextFieldSize,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#BA2E2E"
+        android:text="UPDATE"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="#00000000"
+        android:text="Back to home page "
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+</LinearLayout>

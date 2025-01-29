@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".patient_booking">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Enter DATA HERE :"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Enter name :"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter full name "
+        android:inputType="text"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,SpeakableTextPresentCheck,TextContrastCheck,VisualLintTextFieldSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Enter name of the state :"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edtstate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="State name "
+        android:inputType="text"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Enter name of the city :"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edtcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City name "
+        android:inputType="text"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Enter your age :"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edtage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="In Number like 18 ,30"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,SpeakableTextPresentCheck,VisualLintTextFieldSize,TextContrastCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Enter the Date for vaccination:"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edtdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="dd/mm/yy"
+        android:inputType="date"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,DuplicateSpeakableTextCheck,HardcodedText,SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Enter the number of vaccination dose:"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edtdose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="1 or 2"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#BA2E2E"
+        android:text="BOOKING"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="#00000000"
+        android:text="Back to home page "
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+</LinearLayout>

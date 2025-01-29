@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".selection">
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="254dp"
+        android:layout_height="271dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imglogo"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Covid vaccination"
+        android:textColor="#D53333"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txtsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtname"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Government approved application"
+        android:textAlignment="center"
+        android:textColor="#BC6969"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
